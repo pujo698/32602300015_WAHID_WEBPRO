@@ -1,0 +1,118 @@
+/* === Font === */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    background-color: #420bcd;
+    color: #333;
+}
+
+/* === Navbar === */
+.navbar {
+    background-color: #0077cc;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(70, 11, 219);
+}
+
+.navbar-icon i {
+    font-size: 28px;
+    color: rgb(18, 17, 17);
+}
+
+.navbar-page ul,
+.navbar-sosmed ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar-page li a {
+    color: rgba(17, 10, 218, 0.856);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-page li a:hover {
+    text-decoration: underline;
+}
+
+.navbar-sosmed li {
+    color: rgb(17, 10, 218, 0.856);
+    font-size: 14px;
+}
+
+/* === Banner dengan Tema Laut === */
+.banner {
+    background-image: url('../image/laut.jpg'); /* pastikan gambar ada di public/assets/image/laut.jpg */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    text-align: center;
+    color: rgb(17, 10, 218, 0.856);
+}
+
+.name {
+    font-size: 2.8rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.description {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #141212;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
+
+/* === Tentang Saya === */
+.about {
+    padding: 40px 20px;
+    background-color: #5b24f4;
+}
+
+.about-me h2 {
+    font-size: 1.8rem;
+    border-left: 5px solid #0077cc;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.about-experience h3 {
+    font-size: 1.6rem;
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+.about-experience table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #6a6bb0;
+    font-size: 0.95rem;
+    margin-top: 15px;
+}
+
+.about-experience table,
+.about-experience th,
+.about-experience td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* === Footer === */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
